@@ -49,7 +49,7 @@ div.cart3x {
   background: #cdcdcd;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
 }
 
@@ -67,7 +67,7 @@ div.cart3x {
 .cart3x a {
   text-align: center;
   background: #333;
-  /* width: 100%; */
+  width:33.3%;
   height: 75vh;
   /* transition: all 0.3s; */
   text-decoration: none;
