@@ -1,0 +1,42 @@
+@import "https://fonts.googleapis.com/css?family=Passion+One|Poiret+One";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+section.header_lrg {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  height: auto;
+  background: #333;
+}
+
+.header_lrg header {
+  text-align: center;
+  color: #fff;
+}
+
+.header_lrg h2 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 3em;
+  line-height: 1em;
+  text-transform: capitalize;
+  color: #eee;
+  font-weight: normal;
+}
+
+.header_lrg h1 {
+  font-family: "Passion One", sans-serif;
+  font-size: 6em;
+  text-transform: uppercase;
+  font-weight: normal;
+}
