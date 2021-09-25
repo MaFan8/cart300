@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Roboto&display=swap");
+
+
+section.subtitles  {
+display: flex;
+flex-flow: row-wrap;
+justify-content: space-around;
+align-items: center;
+min-height: 75vh;
+height: auto;
+background: #eee;
+}
+
+h1.section-title {
+  font-family: "Gruppo", Helvetica;
+  text.orientation: mixed;
+  writing-mode: vertical-rl;
+  font-size: 5vmin;
+  line-height: 0.2;
+}
