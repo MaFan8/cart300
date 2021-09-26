@@ -2,19 +2,63 @@
 
 
 section.subtitles  {
-display: flex;
-flex-flow: row-wrap;
-justify-content: space-around;
-align-items: center;
-min-height: 75vh;
-height: auto;
-background: #eee;
+width: 100vw;
+height: 75vh;
+margin: auto;
+padding-left: 0.4rem;
+padding-right: 0.4rem;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 0.2rem;
+}
+
+a.icon {
+  text-decoration: none;
+}
+
+.icon img{
+  max-width: 25vw;
+  height: auto;
+  padding: 80px;
+}
+
+.icon img:hover {
+  opacity: 0.3;
+  transition: all 0.5s ease;
 }
 
 h1.section-title {
   font-family: "Gruppo", Helvetica;
-  text.orientation: mixed;
+  color: #333;
+  text-orientation: mixed;
   writing-mode: vertical-rl;
   font-size: 5vmin;
-  line-height: 0.2;
+  margin-left: 65px;
 }
+
+h1.section-title:hover {
+  opacity: 0.3;
+  transition: all 0.5s ease;
+}
+
+/* h1.section-title::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: calc(100% - 4px);
+  height: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.075, 0.81, 0.165, 1);
+}
+
+h1.section-title:hover:before {
+  background-color: transparent;
+  height: 100%;
+  transition: all 1s cubic-bezier(0.075, 0.81, 0.165, 1);
+}
+
+h1.section-title:hover span {
+  letter-spacing: 4px;
+  color: #fff;
+} */
