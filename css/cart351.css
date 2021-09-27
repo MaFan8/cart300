@@ -30,7 +30,7 @@ section.subtitles {
 .subtitles img {
   width: auto;
   height: auto;
-  max-width: 350px;
+  max-width: 250px;
   padding: 80px;
 }
 
@@ -80,7 +80,7 @@ h1.section-title:hover {
   font-family: "Gruppo", Helvetica;
   color: #333;
   font-size: 2.5vmin;
-  line-height: 80px;
+  line-height: 50px;
   list-style-type: none;
   text-decoration: none;
   grid-column: 5/17;
@@ -112,11 +112,11 @@ a:hover {
   text-orientation: mixed;
   writing-mode: vertical-rl;
   font-size: 2vmin;
-  line-height: 80px;
+  line-height: 60px;
   list-style-type: none;
   text-decoration: none;
   grid-column: 4;
-  grid-row: 2/6;
+  grid-row: 2/8;
 }
 
 #slides_link h2 {
@@ -136,7 +136,7 @@ a:hover {
   color: #333;
   font-size: 2vmin;
   text-align: right;
-  line-height: 80px;
+  line-height: 50px;
   list-style-type: none;
   text-decoration: none;
   grid-column: 11/19;
@@ -154,7 +154,7 @@ a:hover {
   border-radius: 15px;
   transition: all 5s ease;
   z-index: -1;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* REFLECTIONS */
@@ -180,7 +180,7 @@ a:hover {
   border-radius: 15px;
   transition: all 2s ease;
   z-index: -1;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #ref_links2 {
@@ -205,7 +205,7 @@ a:hover {
   border-radius: 15px;
   transition: all 5s ease;
   z-index: -1;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* PROJECT */
@@ -216,7 +216,7 @@ a:hover {
   writing-mode: vertical-rl;
   text-align: right;
   font-size: 2vmin;
-  line-height: 80px;
+  line-height: 60px;
   list-style-type: none;
   text-decoration: none;
   grid-column: 15;
@@ -240,11 +240,11 @@ a:hover {
   color: #333;
   font-size: 2vmin;
   text-align: right;
-  line-height: 80px;
+  line-height: 40px;
   list-style-type: none;
   text-decoration: none;
   grid-column: 6/14;
-  grid-row: 3/6;
+  grid-row: 3/5;
 }
 
 .mid_box h2 {
@@ -264,7 +264,7 @@ a:hover {
   font-family: "Gruppo", Helvetica;
   color: #333;
   font-size: 2.5vmin;
-  line-height: 250px;
+  line-height: 180px;
   list-style-type: none;
   text-decoration: none;
   grid-column: 4/9;
