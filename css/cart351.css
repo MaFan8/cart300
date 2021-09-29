@@ -30,7 +30,7 @@ section.subtitles {
 .subtitles img {
   width: auto;
   height: auto;
-  max-width: 250px;
+  max-width: 300px;
   padding: 80px;
 }
 
@@ -75,6 +75,37 @@ h1.section-title:hover {
 }
 
 
+/* Dots */
+#dots {
+  background: #333;
+  opacity: 0.2;
+  border-radius: 45px;
+}
+.dot1 {
+  grid-column: 19;
+  grid-row: 2;
+}
+.dot2 {
+  grid-column: 19;
+  grid-row: 4;
+}
+.dot3 {
+  grid-column: 17;
+  grid-row: 2;
+}
+.dot4 {
+  grid-column: 17;
+  grid-row: 4;
+}
+.dot5 {
+  grid-column: 14;
+  grid-row: 2;
+}
+.dot6 {
+  grid-column: 14;
+  grid-row: 4;
+}
+
 /* EXERCISES */
 #ex_links {
   font-family: "Gruppo", Helvetica;
@@ -101,7 +132,6 @@ a:hover {
   opacity: 0.8;
   border-radius: 15px;
   transition: all 2s ease;
-  z-index: -1;
   margin-bottom: 30px;
 }
 
@@ -128,7 +158,6 @@ a:hover {
   opacity: 0.8;
   border-radius: 15px;
   transition: all 2s ease;
-  z-index: -1;
 }
 
 #presentation_links {
@@ -232,7 +261,6 @@ a:hover {
   opacity: 0.8;
   border-radius: 15px;
   transition: all 2s ease;
-  z-index: -1;
 }
 
 #middle_links {

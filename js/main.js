@@ -14,6 +14,8 @@ document.getElementById('exercises').addEventListener('click', function() {
   exercises.style.pointerEvents = "none";
   //unhide lists
   document.getElementById('ex_links').style.display = "block";
+  //show dots
+  // document.getElementById('dots').style.display = "block";
 });
 
 document.getElementById('presentation').addEventListener('click', function() {
