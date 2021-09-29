@@ -53,6 +53,7 @@ h1.section-title:hover {
   transition: all 0.5s ease;
 }
 
+
 /* Navigation positions */
 #exercises {
   grid-column: 1/6;
@@ -104,6 +105,11 @@ h1.section-title:hover {
 .dot6 {
   grid-column: 14;
   grid-row: 4;
+}
+
+.ex_box {
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* EXERCISES */
