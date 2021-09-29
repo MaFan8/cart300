@@ -118,13 +118,15 @@ h1.section-title:hover {
   grid-row: 6/10;
 }
 
+
 a:hover {
+  color: #DC3534;
   opacity: 0.3;
   transition: all 0.5s ease;
 }
 
-.ex_box h2 {
-  padding-left: 50px;
+a:after {
+  color: #D5EFFC;
 }
 
 .ex_box {
@@ -133,6 +135,7 @@ a:hover {
   border-radius: 15px;
   transition: all 2s ease;
   margin-bottom: 30px;
+  padding-left: 50px;
 }
 
 /* PRESENtATION */
