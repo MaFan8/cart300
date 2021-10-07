@@ -77,12 +77,13 @@ h1.section-title:hover {
 
 
 /* Dots */
-#dots {
+.dots {
+/*  display: grid;*/
   background: #333;
   opacity: 0.2;
-  border-radius: 45px;
+  border-radius: 50px;
 }
-.dot1 {
+#dot1 {
   grid-column: 19;
   grid-row: 2;
 }
