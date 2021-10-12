@@ -59,17 +59,25 @@ else {
 //   document.getElementById('ref_links2').style.display = "block";
 // });
 //
-// document.getElementById('project').addEventListener('click', function() {
-//   exercises.style.visibility = "hidden";
-//   reflections.style.visibility = "hidden";
-//   presentation.style.visibility = "hidden";
-//   //remove hover in css
-//   project.style.pointerEvents = "none";
-//   //unhide lists
-//   document.getElementById('proposal_link').style.display = "block";
-//   document.getElementById('middle_links').style.display = "block";
-//   document.getElementById('final_link').style.display = "block";
-// });
+document.getElementById('project').addEventListener('click', function() {
+  if (clickCount%2==0) {
+  exercises.style.visibility = "hidden";
+  reflections.style.visibility = "hidden";
+  presentation.style.visibility = "hidden";
+  //unhide lists
+  document.getElementById('proposal_link').style.display = "block";
+}
+else {
+  exercises.style.visibility = "visible";
+  reflections.style.visibility = "visible";
+  presentation.style.visibility = "visible";
+  //unhide lists
+  // document.getElementById('slides_link').style.display = "block";
+  document.getElementById('proposal_link').style.display = "none";
+}
+  clickCount = clickCount+1;
+  
+});
 
 
 }
