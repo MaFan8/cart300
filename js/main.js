@@ -6,6 +6,7 @@ let reflections = document.getElementById('reflections');
 let project = document.getElementById('project');
 let clickCount =0;
 
+// CLICK FUNCTION
 document.getElementById('exercises').addEventListener('click', function() {
   if(clickCount%2==0){
   presentation.style.visibility = "hidden";
@@ -23,9 +24,11 @@ else{
 }
   clickCount = clickCount+1;
   //show dots
-  // document.getElementById('dots').style.display = "block";
-});
+  // document.getElementsByClassName('dots').style.display = "block";
+  document.querySelectorAll('span.dots').style.display = "block";
+}); // END CLICK FUNCTION
 
+// CLICK FUNCTION
 document.getElementById('presentation').addEventListener('click', function() {
   if (clickCount%2==0) {
   exercises.style.visibility = "hidden";
@@ -46,7 +49,7 @@ else {
   clickCount = clickCount+1;
   //show dots
   // document.getElementById('dots').style.display = "block";
-});
+});// END CLICK FUNCTION
 //
 // document.getElementById('reflections').addEventListener('click', function() {
 //   presentation.style.visibility = "hidden";
@@ -76,7 +79,7 @@ else {
   document.getElementById('proposal_link').style.display = "none";
 }
   clickCount = clickCount+1;
-  
+
 });
 
 
