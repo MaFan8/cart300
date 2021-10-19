@@ -9,6 +9,7 @@
       "Pruning": "non",
       "Watering": "non",
       "Plants": ["Alien Hands","Pilea"],
+      "Plant_Image": ["/cart351Ex/exercise2/img/alienHands.jpg", "/cart351Ex/exercise2/img/pilea.JPG"],
       "Plantlets": "non"
     },
 
