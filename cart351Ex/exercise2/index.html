@@ -49,7 +49,7 @@
         let days = data['Entries'];
         let current = date - 1; // align date to array number
 
-        console.log(days);
+        // console.log(days);
 
         let plant_keys = Object.keys(days[current]);
         for (let i = 0; i < plant_keys.length; i++) {
@@ -57,15 +57,15 @@
             let images = days[current][plant_keys[i]];
             for (let j = 0; j < images.length; j++) {
               let img_show = $("<img>");
-              $(img_show).attr("src", images);
+              $(img_show).attr("src", images[j]);
               $(img_show).appendTo(entry);
             }
+            console.log(images);
           } else {
             let paragraph = $("<p>");
             $(paragraph).text(plant_keys[i] + ": "+ days[current][plant_keys[i]]);
             $(paragraph).appendTo(entry);
           }
-
         }
         $(section).append(entry);
       } // END showEntry function

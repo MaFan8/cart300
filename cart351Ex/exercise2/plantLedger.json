@@ -22,6 +22,7 @@
       "Pruning": "non",
       "Watering": "non",
       "Plants of Concern": ["Alien Hands","Pilea"],
+      "Plant_Image": ["/cart351Ex/exercise2/img/alienHands.jpg", "/cart351Ex/exercise2/img/pilea.jpg"],
       "Plantlets": "non"
     },
 
@@ -34,6 +35,7 @@
       "Pruning": "Spider Plant",
       "Watering": "Alien Hands",
       "Plants of Concern": "Alien Hands",
+      "Plant_Image": ["/cart351Ex/exercise2/img/alienHands.jpg"],
       "Plantlets": "non"
     },
 
@@ -46,6 +48,7 @@
       "Pruning": ["Palmy Plant, Alien Hands"],
       "Watering": "Shower",
       "Plants of Concern": "Pilea",
+      "Plant_Image": ["/cart351Ex/exercise2/img/pilea.jpg"],
       "Plantlets": "No Name (Daniella's) keeps on proprogating..."
     }
   ]
