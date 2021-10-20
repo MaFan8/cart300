@@ -8,8 +8,8 @@
       "Blinds": "Open",
       "Pruning": "non",
       "Watering": "non",
-      "Plants": ["Alien Hands","Pilea"],
-      "Plant_Image": ["/cart351Ex/exercise2/img/alienHands.jpg", "/cart351Ex/exercise2/img/pilea.JPG"],
+      "Plants of Concern": ["Alien Hands","Pilea"],
+      "Plant_Image": ["/cart351Ex/exercise2/img/alienHands.jpg", "/cart351Ex/exercise2/img/pilea.jpg"],
       "Plantlets": "non"
     },
 
@@ -21,7 +21,7 @@
       "Blinds": "Open",
       "Pruning": "non",
       "Watering": "non",
-      "Plants": ["Alien Hands","Pilea"],
+      "Plants of Concern": ["Alien Hands","Pilea"],
       "Plantlets": "non"
     },
 
@@ -33,7 +33,7 @@
       "Blinds": "Open",
       "Pruning": "Spider Plant",
       "Watering": "Alien Hands",
-      "Plants": "Alien Hands",
+      "Plants of Concern": "Alien Hands",
       "Plantlets": "non"
     },
 
@@ -45,7 +45,7 @@
       "Blinds": "Open",
       "Pruning": ["Palmy Plant, Alien Hands"],
       "Watering": "Shower",
-      "Plants": "Pilea",
+      "Plants of Concern": "Pilea",
       "Plantlets": "No Name (Daniella's) keeps on proprogating..."
     }
   ]

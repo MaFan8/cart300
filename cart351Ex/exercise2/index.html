@@ -49,19 +49,20 @@
         let days = data['Entries'];
         let current = date - 1; // align date to array number
 
-        console.log(Object.keys(days[current]));
         console.log(days);
-        console.log(days.Plant_Image[i]);
 
         let plant_keys = Object.keys(days[current]);
         for (let i = 0; i < plant_keys.length; i++) {
           if (plant_keys[i] === "Plant_Image") {
-            // let image = $("<img>");
-            // $(image).attr(days[8][plant_keys[i]]);
-            // $(image).appendTo(entry);
+            let images = days[current][plant_keys[i]];
+            for (let j = 0; j < images.length; j++) {
+              let img_show = $("<img>");
+              $(img_show).attr("src", images);
+              $(img_show).appendTo(entry);
+            }
           } else {
             let paragraph = $("<p>");
-            $(paragraph).text(plant_keys[i] + days[current][plant_keys[i]]);
+            $(paragraph).text(plant_keys[i] + ": "+ days[current][plant_keys[i]]);
             $(paragraph).appendTo(entry);
           }
 
